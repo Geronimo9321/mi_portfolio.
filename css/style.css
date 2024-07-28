@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.galeria figure {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background: #fff;
+    text-align: center;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+    color: #666;
+}
+
+/*skills*/
+
+.habilidades {
+    text-align: center;
+    padding: 20px;
+    margin: 40px 0;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.habilidades h2 {
+    margin-bottom: 20px;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.redesSocial {
+    text-align: center;
+    padding: 20px;
+    margin: 40px 0;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.redesSocial h2 {
+    margin-bottom: 20px;
+}
+
+.redesSocial a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.redesSocial .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.redesSocial .social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para la sección de proyectos */
+
+#projects {
+    padding: 20px;
+    text-align: center; 
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px; 
+    background: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.project h3 {
+    margin: 10px 0; 
+}
+
+.project p {
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.project a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    text-decoration: none; 
+    color: #0077b5; 
+    background: #fff; 
+    border-radius: 4px; 
+    border: 1px solid #0077b5; 
+    transition: background 0.3s, color 0.3s;
+}
+
+.project a:hover {
+    background: #0077b5; 
+    color: #fff; 
+}
