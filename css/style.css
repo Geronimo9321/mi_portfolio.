@@ -79,7 +79,7 @@ form button {
 }
 
 footer {
-    background: #333;
+    background: gray;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -133,34 +133,53 @@ footer {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/*redes sociales*/
+/* Estilo general para el contenedor de redes sociales */
 .redesSocial {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    margin: 40px 0;
-    background: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Estilo para el título dentro del contenedor de redes sociales */
 .redesSocial h2 {
     margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
 
-.redesSocial a {
-    display: inline-block;
-    margin: 10px;
+/* Estilo para cada ítem social */
+.social-item {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el enlace */
+    margin-bottom: 30px; /* Espacio entre cada ítem */
+}
+
+/* Estilo para las imágenes sociales */
+.social-icon {
+    width: 30px; /* Ajusta el tamaño de las imágenes */
+    height: 30px;
+    margin-right: 10px; /* Espacio entre la imagen y el enlace */
+}
+
+/* Estilo para los enlaces */
+.social-item a {
     text-decoration: none;
+    color: #007bff; /* Color del texto del enlace */
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #007bff; /* Borde del botón */
+    border-radius: 4px; /* Esquinas redondeadas del botón */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición */
 }
 
-.redesSocial .social-icon {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s;
+/* Estilo para los enlaces en estado de hover */
+.social-item a:hover {
+    background-color: #007bff; /* Color de fondo en hover */
+    color: white; /* Color del texto en hover */
 }
 
-.redesSocial .social-icon:hover {
-    transform: scale(1.1);
-}
 
 /* Estilo para la sección de proyectos */
 
