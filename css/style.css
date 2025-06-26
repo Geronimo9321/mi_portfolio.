@@ -3,10 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url("../img/portfolio-body.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #f2f2f2; /* Fondo claro, sin imagen */
 }
 
 header {
@@ -60,8 +57,8 @@ footer {
     bottom: 0;
 }
 
-.section1{
-    background-color: rgba(157, 211, 230, 0.6);
+.section1 {
+    background-color: rgba(157, 211, 230, 0.4);
     padding: 10px;
     border-radius: 8px;
     backdrop-filter: blur(5px);
@@ -71,40 +68,40 @@ footer {
     font-weight: bold;
 }
 
-.section1 p{
+.section1 p {
     text-align: center;
 }
 
-.section2{
-    background-color: rgba(157, 211, 230, 0.6);
+.section2 {
+    background-color: rgba(157, 211, 230, 0.4);
     padding: 10px;
     border-radius: 8px;
     backdrop-filter: blur(5px);
     text-align: center;
 }
 
-.section2 h2{
+.section2 h2 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.section2, .fotoPerfil{
+.section2, .fotoPerfil {
     display: inline-block;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-.section2 p{
+.section2 p {
     text-align: justify;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
-/*skills-habilidades*/
+/* skills-habilidades */
 
 .habilidades {
     text-align: left;
     margin: 40px 0;
-    background-color: rgba(173, 216, 230, 0.6);
+    background-color: rgba(173, 216, 230, 0.4);
     padding: 20px;
     border-radius: 8px;
     backdrop-filter: blur(5px);
@@ -124,11 +121,10 @@ footer {
     margin: 10px 0;
     padding: 10px;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*redes sociales*/
-/* Estilo general para el contenedor de redes sociales */
+/* redes sociales */
 .redesSocial {
     display: flex;
     flex-direction: column;
@@ -136,90 +132,84 @@ footer {
     padding: 20px;
 }
 
-/* Estilo para el título dentro del contenedor de redes sociales */
 .redesSocial h2 {
     margin-bottom: 30px;
     font-size: 24px;
+    color: #333;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-item a:hover {
+    background-color: #007bff;
     color: white;
 }
 
-/* Estilo para cada ítem social */
-.social-item {
-    display: flex;
-    align-items: center; /* Alinea verticalmente la imagen y el enlace */
-    margin-bottom: 30px; /* Espacio entre cada ítem */
-}
-
-/* Estilo para las imágenes sociales */
-.social-icon {
-    width: 30px; /* Ajusta el tamaño de las imágenes */
-    height: 30px;
-    margin-right: 10px; /* Espacio entre la imagen y el enlace */
-}
-
-/* Estilo para los enlaces */
-.social-item a {
-    text-decoration: none;
-    color: #007bff; /* Color del texto del enlace */
-    font-size: 16px;
-    padding: 5px 10px;
-    border: 1px solid #007bff; /* Borde del botón */
-    border-radius: 4px; /* Esquinas redondeadas del botón */
-    transition: background-color 0.3s, color 0.3s; /* Efecto de transición */
-}
-
-/* Estilo para los enlaces en estado de hover */
-.social-item a:hover {
-    background-color: #007bff; /* Color de fondo en hover */
-    color: white; /* Color del texto en hover */
-}
-
-
-/* Estilo para la sección de proyectos */
+/* sección de proyectos */
 
 #projects {
     padding: 20px;
-    text-align: center; 
+    text-align: center;
 }
 
 .project {
     margin: 20px 0;
-    padding: 20px; 
+    padding: 20px;
     background: #f9f9f9;
-    border-radius: 8px; 
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project img {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .project h3 {
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
 .project p {
-    font-size: 1rem; 
-    color: #555; 
+    font-size: 1rem;
+    color: #555;
     text-align: justify;
 }
 
 .project a {
-    display: inline-block; 
-    padding: 10px 20px; 
-    margin-top: 10px; 
-    text-decoration: none; 
-    color: #0077b5; 
-    background: #fff; 
-    border-radius: 4px; 
-    border: 1px solid #0077b5; 
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077b5;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #0077b5;
     transition: background 0.3s, color 0.3s;
 }
 
 .project a:hover {
-    background: #0077b5; 
-    color: #fff; 
+    background: #0077b5;
+    color: #fff;
 }
